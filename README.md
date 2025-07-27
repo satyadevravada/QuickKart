@@ -2,7 +2,7 @@
 
 **QuickKart** is a full-stack e-commerce web application built with React and Tailwind CSS on the frontend, and Express, Node.js, and MySQL on the backend. It features JWT-based authentication, secure user sessions, product listings, cart management, and order placement.
 
----
+
 
 ## 🌐 Tech Stack
 
@@ -19,7 +19,6 @@
 * **MySQL** as the relational database
 * **JWT** for user authentication and secure sessions
 
----
 
 ## 📁 Project Structure
 
@@ -33,7 +32,7 @@ QuickKart/
 └── README.md
 ```
 
----
+
 
 ## ⚙️ Features
 
@@ -57,7 +56,7 @@ QuickKart/
   * Order creation and retrieval
   * Admin (future) could manage products and orders
 
----
+
 
 ## 💡 Getting Started
 
@@ -131,7 +130,7 @@ cd QuickKart
 
 4. Visit [http://localhost:3000](http://localhost:3000) to use QuickKart!
 
----
+
 
 ## 🛠️ Usage
 
@@ -140,7 +139,7 @@ cd QuickKart
 * **Add to cart**, modify quantities.
 * **Checkout** to place an order.
 
----
+
 
 ## 🧹 API Endpoints
 
@@ -156,7 +155,7 @@ cd QuickKart
 | `/api/orders`        | POST   | Create a new order              |
 | `/api/orders/user`   | POST    | Get orders for the current user |
 
----
+
 
 ## 🛡️ Authentication & Security
 
@@ -165,7 +164,7 @@ cd QuickKart
 * Protected routes require a valid token in the `Authorization` header (e.g., `Bearer <token>`).
 * Passwords are **hashed** using bcrypt.
 
----
+
 
 ## 🚀 Future Enhancements
 
